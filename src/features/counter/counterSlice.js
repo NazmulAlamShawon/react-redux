@@ -19,3 +19,6 @@ export const  counterSlce = createSlice({
 
 })
 
+
+export const {increment, decrement} =  counterSlce.actions;
+export default counterSlce.reducer;
